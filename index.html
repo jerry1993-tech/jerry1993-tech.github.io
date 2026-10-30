@@ -1,0 +1,468 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cornucopia.AI — AI Full-Stack Engineer</title>
+  <meta name="description" content="Cornucopia.AI is an AI Full-Stack Engineer building open-source LLM and agent systems — from post-training and agentic RL to multi-agent orchestration and vertical-domain models.">
+  <meta name="author" content="Cornucopia.AI">
+  <link rel="canonical" href="https://jerry1993-tech.github.io/">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <meta name="theme-color" id="theme-color" content="#FBF8F2">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jerry1993-tech.github.io/">
+  <meta property="og:title" content="Cornucopia.AI — AI Full-Stack Engineer">
+  <meta property="og:description" content="Building open-source LLM & agent systems — from post-training to production.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Cornucopia.AI — AI Full-Stack Engineer">
+  <meta name="twitter:description" content="Building open-source LLM & agent systems — from post-training to production.">
+
+  <script>
+    (() => {
+      try {
+        const stored = localStorage.getItem("theme");
+        const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        document.documentElement.dataset.theme = stored || (prefersDark ? "dark" : "light");
+        document.documentElement.classList.add("js");
+      } catch (_) {
+        document.documentElement.classList.add("js");
+      }
+    })();
+  </script>
+  <link rel="stylesheet" href="assets/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Cornucopia.AI",
+    "url": "https://jerry1993-tech.github.io/",
+    "sameAs": ["https://github.com/jerry1993-tech"],
+    "jobTitle": "AI Full-Stack Engineer",
+    "address": {"@type": "PostalAddress", "addressCountry": "NO"},
+    "knowsAbout": ["Large Language Models", "AI Agents", "Agentic RL", "Multi-Agent Systems", "Natural Language Processing"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="container nav">
+      <a class="brand" href="#top" aria-label="Cornucopia.AI — home">
+        <img src="assets/favicon.svg" width="30" height="30" alt="">
+        <span>Cornucopia<span class="brand-dot">.AI</span></span>
+      </a>
+
+      <nav class="nav-links" id="nav-links" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#focus">Focus</a>
+        <a href="#work">Work</a>
+        <a href="#stack">Stack</a>
+        <a href="https://github.com/jerry1993-tech" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark theme">
+          <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.66 6.34l1.41-1.41"></path>
+          </svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"></path>
+          </svg>
+        </button>
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">
+          <svg class="icon-menu" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+            <path d="M4 7h16M4 12h16M4 17h16"></path>
+          </svg>
+          <svg class="icon-close" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+            <path d="m6 6 12 12M18 6 6 18"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span> AI Full-Stack Engineer · Norway</p>
+        <h1 id="hero-title">Cornucopia<span class="gold">.AI</span></h1>
+        <p class="hero-lede">Building open-source <strong>LLM &amp; agent systems</strong> — from post-training to production.</p>
+        <p class="hero-body">I work across the LLM stack: post-training, agents, retrieval, and the engineering that puts them into production. I care about systems that hold up outside the demo.</p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#work">Explore selected work <span aria-hidden="true">↓</span></a>
+          <a class="btn btn-ghost" href="https://github.com/jerry1993-tech" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+
+        <dl class="hero-stats" aria-label="GitHub highlights">
+          <div>
+            <dt>Stars earned</dt>
+            <dd data-stat="stars">736</dd>
+          </div>
+          <div>
+            <dt>Public repos</dt>
+            <dd data-stat="repos">25</dd>
+          </div>
+          <div>
+            <dt>Followers</dt>
+            <dd data-stat="followers">26</dd>
+          </div>
+        </dl>
+      </div>
+
+      <div class="hero-art reveal">
+        <div class="emblem-panel">
+          <div class="seal" aria-hidden="true">鼎</div>
+          <img class="ding-art" src="assets/ding.svg" alt="Golden Chinese ding emblem surrounded by orbital rings">
+          <div class="emblem-caption">
+            <span class="caption-cn">金鼎</span>
+            <span>The Cornucopia emblem</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-head reveal">
+        <p class="section-kicker">01 — About</p>
+        <h2>Build for the real world,<br>not the demo.</h2>
+      </div>
+
+      <div class="about-grid">
+        <p class="about-lead reveal">
+          I'm an <strong>AI Full-Stack Engineer</strong> working across the LLM stack — post-training, agents, retrieval, and the engineering that puts them into production. I build in the open and care about systems that hold up outside the demo.
+        </p>
+
+        <div class="about-cards">
+          <article class="info-card reveal">
+            <span class="info-label">Building</span>
+            <h3>Cornucopia</h3>
+            <p>An open-source Chinese financial LLM series and a lightweight vertical-domain training stack.</p>
+            <a href="https://github.com/jerry1993-tech/Cornucopia-LLaMA-Fin-Chinese" target="_blank" rel="noopener">Explore the flagship <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="info-card reveal">
+            <span class="info-label">Exploring</span>
+            <h3>Agentic RL</h3>
+            <p>GRPO, multi-turn tool use, sandboxed execution, and execution-verified rewards.</p>
+            <a href="https://github.com/jerry1993-tech/mimo-agent-grpo-swift" target="_blank" rel="noopener">See the reproduction <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="info-card reveal">
+            <span class="info-label">Designing</span>
+            <h3>Multi-Agent Systems</h3>
+            <p>Orchestration, collaboration patterns, tool routing, and workflow engines.</p>
+            <a href="https://github.com/jerry1993-tech/Cornucopia-Multi-Agent" target="_blank" rel="noopener">View the framework <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="info-card reveal">
+            <span class="info-label">Based in</span>
+            <h3>Norway</h3>
+            <p>Open to collaboration and AI engineering opportunities.</p>
+            <a href="https://github.com/jerry1993-tech" target="_blank" rel="noopener">Connect on GitHub <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="focus">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-kicker">02 — Focus</p>
+          <h2>Where I work best.</h2>
+        </div>
+
+        <div class="focus-grid">
+          <article class="focus-card reveal">
+            <span class="focus-num" aria-hidden="true">01</span>
+            <h3>Agentic RL &amp; Post-Training</h3>
+            <p>Training agents that can reason, use tools, and verify their own work.</p>
+            <div class="tags">
+              <span class="tag">GRPO</span>
+              <span class="tag">MS-Swift</span>
+              <span class="tag">Sandboxing</span>
+            </div>
+          </article>
+
+          <article class="focus-card reveal">
+            <span class="focus-num" aria-hidden="true">02</span>
+            <h3>Multi-Agent Systems</h3>
+            <p>Production-grade orchestration with collaboration modes, tool routing, and workflow engines.</p>
+            <div class="tags">
+              <span class="tag">AgentScope</span>
+              <span class="tag">LangGraph</span>
+              <span class="tag">FastAPI</span>
+            </div>
+          </article>
+
+          <article class="focus-card reveal">
+            <span class="focus-num" aria-hidden="true">03</span>
+            <h3>Vertical-Domain LLMs</h3>
+            <p>Domain adaptation from pretraining to SFT, RLHF, and quantization — starting with Chinese finance.</p>
+            <div class="tags">
+              <span class="tag">LLaMA</span>
+              <span class="tag">RLHF</span>
+              <span class="tag">Quantization</span>
+            </div>
+          </article>
+
+          <article class="focus-card reveal">
+            <span class="focus-num" aria-hidden="true">04</span>
+            <h3>Applied NLP &amp; Retrieval</h3>
+            <p>BERT-family models, semantic matching, distillation, prompt learning, and Faiss retrieval.</p>
+            <div class="tags">
+              <span class="tag">BERT</span>
+              <span class="tag">SBERT</span>
+              <span class="tag">Faiss</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="work">
+      <div class="section-head reveal">
+        <p class="section-kicker">03 — Selected Work</p>
+        <h2>Open source, with receipts.</h2>
+        <p class="section-sub">A few projects that show how I think about models, agents, and the systems around them.</p>
+      </div>
+
+      <article class="featured-work reveal">
+        <div>
+          <p class="featured-label">Flagship · Open Source</p>
+          <h3>Cornucopia-LLaMA-Fin-Chinese</h3>
+          <p>An open-source Chinese financial LLM series with a lightweight vertical-domain training framework covering pretraining, SFT, RLHF, and quantization.</p>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">LLaMA</span>
+            <span class="tag">RLHF</span>
+            <span class="tag">Quantization</span>
+          </div>
+        </div>
+        <div class="featured-stats">
+          <div>
+            <strong data-repo-stars="Cornucopia-LLaMA-Fin-Chinese">655</strong>
+            <span>GitHub stars</span>
+          </div>
+          <div>
+            <strong data-repo-forks="Cornucopia-LLaMA-Fin-Chinese">66</strong>
+            <span>Forks</span>
+          </div>
+          <a class="btn btn-gold" href="https://github.com/jerry1993-tech/Cornucopia-LLaMA-Fin-Chinese" target="_blank" rel="noopener">View repository <span aria-hidden="true">↗</span></a>
+        </div>
+      </article>
+
+      <div class="work-grid">
+        <article class="project-card reveal">
+          <div class="project-top">
+            <span class="project-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M3.5 6.5A1.5 1.5 0 0 1 5 5h4.6l2 2H19a1.5 1.5 0 0 1 1.5 1.5v9A1.5 1.5 0 0 1 19 19H5a1.5 1.5 0 0 1-1.5-1.5z"></path></svg>
+            </span>
+            <a class="project-name" href="https://github.com/jerry1993-tech/Cornucopia-Multi-Agent" target="_blank" rel="noopener">Cornucopia-Multi-Agent</a>
+            <span class="project-arrow" aria-hidden="true">↗</span>
+          </div>
+          <p>Production-grade multi-agent orchestration: 6 collaboration modes, 8 specialized tools, and 4 execution paths. Built with FastAPI and Streamlit.</p>
+          <div class="project-meta">
+            <span class="lang"><span class="lang-dot" style="--lang:#3572A5" aria-hidden="true"></span>Python</span>
+            <span class="meta"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2L12 17.3l-5.6 2.9 1.1-6.2L3 9.6l6.2-.9z"></path></svg><span data-repo-stars="Cornucopia-Multi-Agent">15</span></span>
+            <span class="meta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="6" cy="5" r="2"></circle><circle cx="18" cy="5" r="2"></circle><circle cx="12" cy="19" r="2"></circle><path d="M6 7v3a4 4 0 0 0 4 4h4a4 4 0 0 0 4-4V7M12 14v3"></path></svg><span data-repo-forks="Cornucopia-Multi-Agent">2</span></span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-top">
+            <span class="project-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M3.5 6.5A1.5 1.5 0 0 1 5 5h4.6l2 2H19a1.5 1.5 0 0 1 1.5 1.5v9A1.5 1.5 0 0 1 19 19H5a1.5 1.5 0 0 1-1.5-1.5z"></path></svg>
+            </span>
+            <a class="project-name" href="https://github.com/jerry1993-tech/mimo-agent-grpo-swift" target="_blank" rel="noopener">mimo-agent-grpo-swift</a>
+            <span class="project-arrow" aria-hidden="true">↗</span>
+          </div>
+          <p>End-to-end reproduction of MiMo-V2.6's interactive Agent RL pipeline on MS-Swift: multi-turn tool use, sandboxed execution, real-execution verification, and GRPO.</p>
+          <div class="project-meta">
+            <span class="lang"><span class="lang-dot" style="--lang:#3572A5" aria-hidden="true"></span>Python</span>
+            <span class="meta"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2L12 17.3l-5.6 2.9 1.1-6.2L3 9.6l6.2-.9z"></path></svg><span data-repo-stars="mimo-agent-grpo-swift">1</span></span>
+            <span class="meta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="6" cy="5" r="2"></circle><circle cx="18" cy="5" r="2"></circle><circle cx="12" cy="19" r="2"></circle><path d="M6 7v3a4 4 0 0 0 4 4h4a4 4 0 0 0 4-4V7M12 14v3"></path></svg><span data-repo-forks="mimo-agent-grpo-swift">0</span></span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-top">
+            <span class="project-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M3.5 6.5A1.5 1.5 0 0 1 5 5h4.6l2 2H19a1.5 1.5 0 0 1 1.5 1.5v9A1.5 1.5 0 0 1 19 19H5a1.5 1.5 0 0 1-1.5-1.5z"></path></svg>
+            </span>
+            <a class="project-name" href="https://github.com/jerry1993-tech/aligo-travel-agents" target="_blank" rel="noopener">aligo-travel-agents</a>
+            <span class="project-arrow" aria-hidden="true">↗</span>
+          </div>
+          <p>Enterprise-grade multi-agent travel assistant built from scratch on AgentScope 2.0.</p>
+          <div class="project-meta">
+            <span class="lang"><span class="lang-dot" style="--lang:#3572A5" aria-hidden="true"></span>Python</span>
+            <span class="meta"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2L12 17.3l-5.6 2.9 1.1-6.2L3 9.6l6.2-.9z"></path></svg><span data-repo-stars="aligo-travel-agents">2</span></span>
+            <span class="meta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="6" cy="5" r="2"></circle><circle cx="18" cy="5" r="2"></circle><circle cx="12" cy="19" r="2"></circle><path d="M6 7v3a4 4 0 0 0 4 4h4a4 4 0 0 0 4-4V7M12 14v3"></path></svg><span data-repo-forks="aligo-travel-agents">0</span></span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-top">
+            <span class="project-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M3.5 6.5A1.5 1.5 0 0 1 5 5h4.6l2 2H19a1.5 1.5 0 0 1 1.5 1.5v9A1.5 1.5 0 0 1 19 19H5a1.5 1.5 0 0 1-1.5-1.5z"></path></svg>
+            </span>
+            <a class="project-name" href="https://github.com/jerry1993-tech/xbert" target="_blank" rel="noopener">xbert</a>
+            <span class="project-arrow" aria-hidden="true">↗</span>
+          </div>
+          <p>TensorFlow 2.x architecture for loading BERT and its variants.</p>
+          <div class="project-meta">
+            <span class="lang"><span class="lang-dot" style="--lang:#3572A5" aria-hidden="true"></span>Python</span>
+            <span class="meta"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2L12 17.3l-5.6 2.9 1.1-6.2L3 9.6l6.2-.9z"></path></svg><span data-repo-stars="xbert">15</span></span>
+            <span class="meta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="6" cy="5" r="2"></circle><circle cx="18" cy="5" r="2"></circle><circle cx="12" cy="19" r="2"></circle><path d="M6 7v3a4 4 0 0 0 4 4h4a4 4 0 0 0 4-4V7M12 14v3"></path></svg><span data-repo-forks="xbert">0</span></span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-top">
+            <span class="project-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M3.5 6.5A1.5 1.5 0 0 1 5 5h4.6l2 2H19a1.5 1.5 0 0 1 1.5 1.5v9A1.5 1.5 0 0 1 19 19H5a1.5 1.5 0 0 1-1.5-1.5z"></path></svg>
+            </span>
+            <a class="project-name" href="https://github.com/jerry1993-tech/NLP-Prompt" target="_blank" rel="noopener">NLP-Prompt</a>
+            <span class="project-arrow" aria-hidden="true">↗</span>
+          </div>
+          <p>Prompt-learning algorithms for NLP tasks including text classification and information extraction.</p>
+          <div class="project-meta">
+            <span class="lang"><span class="lang-dot" style="--lang:#3572A5" aria-hidden="true"></span>Python</span>
+            <span class="meta"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2L12 17.3l-5.6 2.9 1.1-6.2L3 9.6l6.2-.9z"></path></svg><span data-repo-stars="NLP-Prompt">15</span></span>
+            <span class="meta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="6" cy="5" r="2"></circle><circle cx="18" cy="5" r="2"></circle><circle cx="12" cy="19" r="2"></circle><path d="M6 7v3a4 4 0 0 0 4 4h4a4 4 0 0 0 4-4V7M12 14v3"></path></svg><span data-repo-forks="NLP-Prompt">1</span></span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-top">
+            <span class="project-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M3.5 6.5A1.5 1.5 0 0 1 5 5h4.6l2 2H19a1.5 1.5 0 0 1 1.5 1.5v9A1.5 1.5 0 0 1 19 19H5a1.5 1.5 0 0 1-1.5-1.5z"></path></svg>
+            </span>
+            <a class="project-name" href="https://github.com/jerry1993-tech/Semantic-Similarity-Match" target="_blank" rel="noopener">Semantic-Similarity-Match</a>
+            <span class="project-arrow" aria-hidden="true">↗</span>
+          </div>
+          <p>TensorFlow 2.x toolkit for text similarity, knowledge distillation, interaction models, and dual-tower SBERT.</p>
+          <div class="project-meta">
+            <span class="lang"><span class="lang-dot" style="--lang:#3572A5" aria-hidden="true"></span>Python</span>
+            <span class="meta"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2L12 17.3l-5.6 2.9 1.1-6.2L3 9.6l6.2-.9z"></path></svg><span data-repo-stars="Semantic-Similarity-Match">11</span></span>
+            <span class="meta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="6" cy="5" r="2"></circle><circle cx="18" cy="5" r="2"></circle><circle cx="12" cy="19" r="2"></circle><path d="M6 7v3a4 4 0 0 0 4 4h4a4 4 0 0 0 4-4V7M12 14v3"></path></svg><span data-repo-forks="Semantic-Similarity-Match">1</span></span>
+          </div>
+        </article>
+      </div>
+
+      <p class="work-more reveal"><a href="https://github.com/jerry1993-tech?tab=repositories" target="_blank" rel="noopener">Browse all repositories <span aria-hidden="true">↗</span></a></p>
+    </section>
+
+    <section class="section section-soft" id="stack">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-kicker">04 — Stack</p>
+          <h2>Tools I reach for.</h2>
+        </div>
+
+        <div class="stack-grid">
+          <article class="stack-card reveal">
+            <h3>LLM &amp; Training</h3>
+            <p class="stack-note">Core model work</p>
+            <div class="pills">
+              <span class="pill">Python</span>
+              <span class="pill">PyTorch</span>
+              <span class="pill">TensorFlow</span>
+              <span class="pill">Hugging Face</span>
+              <span class="pill">MS-Swift</span>
+              <span class="pill">GRPO</span>
+            </div>
+          </article>
+
+          <article class="stack-card stack-card--agents reveal">
+            <h3>Agents &amp; Retrieval</h3>
+            <p class="stack-note">Orchestration + context</p>
+            <div class="pills">
+              <span class="pill">AgentScope</span>
+              <span class="pill">LangGraph</span>
+              <span class="pill">MCP</span>
+              <span class="pill">RAG</span>
+              <span class="pill">Milvus</span>
+              <span class="pill">Neo4j</span>
+            </div>
+          </article>
+
+          <article class="stack-card stack-card--eng reveal">
+            <h3>Engineering</h3>
+            <p class="stack-note">Shipping it</p>
+            <div class="pills">
+              <span class="pill">FastAPI</span>
+              <span class="pill">Docker</span>
+              <span class="pill">Redis</span>
+              <span class="pill">Git</span>
+              <span class="pill">Linux</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="github">
+      <div class="section-head reveal">
+        <p class="section-kicker">05 — GitHub</p>
+        <h2>The work is public.</h2>
+      </div>
+
+      <div class="github-panel reveal">
+        <div>
+          <p class="section-kicker">Open source, in the open</p>
+          <h2>More than <span class="gold" data-stat="stars">736</span> stars across public work.</h2>
+          <p>From a 650+ star financial LLM series to agent RL reproductions and the foundations of applied NLP — most of what I know lives in public repositories.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="https://github.com/jerry1993-tech" target="_blank" rel="noopener">Visit GitHub profile <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <div class="github-stats">
+          <div class="github-stat">
+            <strong data-stat="stars">736</strong>
+            <span>Total stars</span>
+          </div>
+          <div class="github-stat">
+            <strong data-stat="repos">25</strong>
+            <span>Public repos</span>
+          </div>
+          <div class="github-stat">
+            <strong data-stat="followers">26</strong>
+            <span>Followers</span>
+          </div>
+          <div class="github-stat">
+            <strong>2017</strong>
+            <span>Building since</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-section" id="contact">
+      <div class="container cta-inner reveal">
+        <p class="section-kicker">Let's build</p>
+        <h2>Working on agents, post-training,<br>or vertical-domain models?</h2>
+        <p>I'm always glad to compare notes with people building real systems.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="https://github.com/jerry1993-tech" target="_blank" rel="noopener">Connect on GitHub <span aria-hidden="true">↗</span></a>
+          <a class="btn btn-ghost" href="#work">See the work</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> Cornucopia.AI · AI Full-Stack Engineer</p>
+      <p>Built with GitHub Pages · <a href="https://github.com/jerry1993-tech/jerry1993-tech.github.io" target="_blank" rel="noopener">Source</a> · <a href="#top">Back to top ↑</a></p>
+    </div>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>

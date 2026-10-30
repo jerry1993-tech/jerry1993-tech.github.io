@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="870 30 340 350" fill="none" role="img" aria-labelledby="dingTitle">
+  <title id="dingTitle">Golden Chinese ding emblem</title>
+<defs>
+    <linearGradient id="bg" x1="40" y1="0" x2="1240" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1526"/>
+      <stop offset="1" stop-color="#070B13"/>
+    </linearGradient>
+    <radialGradient id="goldGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1050 80) rotate(90) scale(330 420)">
+      <stop stop-color="#D4A24C" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#D4A24C" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="tealGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(140 360) rotate(-40) scale(300 460)">
+      <stop stop-color="#2F8F83" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#2F8F83" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="goldName" x1="0" y1="160" x2="0" y2="230" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7DCA4"/>
+      <stop offset="0.55" stop-color="#D4A24C"/>
+      <stop offset="1" stop-color="#B4861E"/>
+    </linearGradient>
+    <linearGradient id="dingGold" x1="962" y1="198" x2="1120" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF3D0"/>
+      <stop offset="0.3" stop-color="#F0CD87"/>
+      <stop offset="0.62" stop-color="#D4A24C"/>
+      <stop offset="0.85" stop-color="#B4861E"/>
+      <stop offset="1" stop-color="#8A5E12"/>
+    </linearGradient>
+    <linearGradient id="dingDark" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#C08A2E"/>
+      <stop offset="1" stop-color="#7A5210"/>
+    </linearGradient>
+    <linearGradient id="dingLight" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#FFF8E7"/>
+      <stop offset="1" stop-color="#D9A94E"/>
+    </linearGradient>
+    <linearGradient id="dingLeg" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#F7DCA4"/>
+      <stop offset="0.45" stop-color="#D4A24C"/>
+      <stop offset="1" stop-color="#8A5E12"/>
+    </linearGradient>
+    <radialGradient id="dingGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1040 238) scale(108 108)">
+      <stop stop-color="#D4A24C" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#D4A24C" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="dingInside" cx="0.5" cy="0.4" r="0.7">
+      <stop stop-color="#5A3A08"/>
+      <stop offset="0.65" stop-color="#3A2606"/>
+      <stop offset="1" stop-color="#241604"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#FFFFFF" fill-opacity="0.05"/>
+    </pattern>
+    <clipPath id="frame">
+      <rect width="1280" height="360" rx="22"/>
+    </clipPath>
+  </defs>
+    <g>
+      <circle cx="1040" cy="205" r="150" stroke="#D4A24C" stroke-opacity="0.10"/>
+      <circle cx="1040" cy="205" r="150" stroke="#D4A24C" stroke-opacity="0.45" stroke-linecap="round" stroke-dasharray="150 792" transform="rotate(-42 1040 205)"/>
+      <circle cx="1040" cy="205" r="118" stroke="#D4A24C" stroke-opacity="0.32"/>
+      <circle cx="1040" cy="205" r="118" stroke="#2F8F83" stroke-opacity="0.65" stroke-linecap="round" stroke-dasharray="74 667" transform="rotate(128 1040 205)"/>
+      <circle cx="1040" cy="205" r="90" stroke="#FFFFFF" stroke-opacity="0.07"/>
+      <circle cx="1040" cy="205" r="90" fill="#D4A24C" fill-opacity="0.035"/>
+
+      <g stroke="#D4A24C" stroke-opacity="0.55" stroke-linecap="round">
+        <line x1="1040" y1="47" x2="1040" y2="59"/>
+        <line x1="1040" y1="345" x2="1040" y2="357"/>
+        <line x1="882" y1="205" x2="894" y2="205"/>
+        <line x1="1186" y1="205" x2="1198" y2="205"/>
+      </g>
+
+      <circle cx="1130" cy="93" r="5" fill="#D4A24C"/>
+      <circle cx="950" cy="317" r="3.5" fill="#2F8F83"/>
+      <circle cx="1143" cy="245" r="3" fill="#F7DCA4"/>
+      <circle cx="937" cy="165" r="2.5" fill="#8FA2BC"/>
+
+      <!-- golden Chinese ding -->
+      <ellipse cx="1040" cy="332" rx="66" ry="6" fill="#000000" opacity="0.30"/>
+      <g>
+          <!-- side legs -->
+          <g transform="translate(996 250) rotate(-6)">
+            <path d="M -16 0 L -13 40 L -22 64 Q 0 72 22 64 L 13 40 L 16 0 Z" fill="url(#dingLeg)" stroke="#5A3A08" stroke-opacity="0.6" stroke-width="1.2"/>
+            <path d="M -13 6 L 13 6" stroke="#F7DCA4" stroke-opacity="0.4" stroke-width="1"/>
+            <path d="M -15 44 L 15 44" stroke="#F7DCA4" stroke-opacity="0.35" stroke-width="1"/>
+            <path d="M -18 62 Q 0 68 18 62" stroke="#F7DCA4" stroke-opacity="0.45" stroke-width="1.4" fill="none"/>
+            <path d="M -8 2 L -5 56" stroke="#FFF3D0" stroke-opacity="0.4" stroke-width="1.6"/>
+            <path d="M 8 4 L 6 56" stroke="#5A3A08" stroke-opacity="0.3" stroke-width="1.4"/>
+          </g>
+          <g transform="translate(1084 250) rotate(6)">
+            <path d="M -16 0 L -13 40 L -22 64 Q 0 72 22 64 L 13 40 L 16 0 Z" fill="url(#dingLeg)" stroke="#5A3A08" stroke-opacity="0.6" stroke-width="1.2"/>
+            <path d="M -13 6 L 13 6" stroke="#F7DCA4" stroke-opacity="0.4" stroke-width="1"/>
+            <path d="M -15 44 L 15 44" stroke="#F7DCA4" stroke-opacity="0.35" stroke-width="1"/>
+            <path d="M -18 62 Q 0 68 18 62" stroke="#F7DCA4" stroke-opacity="0.45" stroke-width="1.4" fill="none"/>
+            <path d="M -8 2 L -5 56" stroke="#FFF3D0" stroke-opacity="0.4" stroke-width="1.6"/>
+            <path d="M 8 4 L 6 56" stroke="#5A3A08" stroke-opacity="0.3" stroke-width="1.4"/>
+          </g>
+
+          <!-- handles -->
+          <path fill-rule="evenodd" d="M 966 198 L 966 152 Q 966 142 978 142 L 992 142 Q 1004 142 1004 152 L 1004 198 Z M 978 158 L 978 184 Q 978 188 984 188 L 988 188 Q 994 188 994 184 L 994 158 Q 994 154 988 154 L 984 154 Q 978 154 978 158 Z" fill="url(#dingGold)" stroke="#5A3A08" stroke-width="1.4"/>
+          <path fill-rule="evenodd" d="M 1076 198 L 1076 152 Q 1076 142 1088 142 L 1102 142 Q 1114 142 1114 152 L 1114 198 Z M 1086 158 L 1086 184 Q 1086 188 1092 188 L 1096 188 Q 1102 188 1102 184 L 1102 158 Q 1102 154 1096 154 L 1092 154 Q 1086 154 1086 158 Z" fill="url(#dingGold)" stroke="#5A3A08" stroke-width="1.4"/>
+          <path d="M 971 151 L 999 151" stroke="#6E4A0E" stroke-opacity="0.35" stroke-width="2"/>
+          <path d="M 1081 151 L 1109 151" stroke="#6E4A0E" stroke-opacity="0.35" stroke-width="2"/>
+          <path d="M 970 148 L 970 190" stroke="#FFF3D0" stroke-opacity="0.55" stroke-width="1.6"/>
+          <path d="M 1080 148 L 1080 190" stroke="#FFF3D0" stroke-opacity="0.55" stroke-width="1.6"/>
+          <path d="M 1001 150 L 1001 190" stroke="#6E4A0E" stroke-opacity="0.28" stroke-width="1.6"/>
+          <path d="M 1111 150 L 1111 190" stroke="#6E4A0E" stroke-opacity="0.28" stroke-width="1.6"/>
+          <path d="M 981 156 L 981 184" stroke="#FFF3D0" stroke-opacity="0.3" stroke-width="1"/>
+          <path d="M 1091 156 L 1091 184" stroke="#FFF3D0" stroke-opacity="0.3" stroke-width="1"/>
+
+          <!-- body -->
+          <path d="M 962 198 C 958 218 960 238 968 252 C 980 268 1000 274 1040 274 C 1080 274 1100 268 1112 252 C 1120 238 1122 218 1118 198 Z" fill="url(#dingGold)" stroke="#5A3A08" stroke-opacity="0.65" stroke-width="1.4"/>
+          <path d="M 976 208 C 972 226 976 244 988 256" stroke="#FFF3D0" stroke-opacity="0.5" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <path d="M 1104 208 C 1108 226 1104 244 1092 256" stroke="#5A3A08" stroke-opacity="0.3" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <path d="M 966 202 C 992 214 1088 214 1114 202" stroke="#5A3A08" stroke-opacity="0.3" stroke-width="2" fill="none"/>
+
+          <!-- upper decorative band -->
+          <path d="M 967 207 C 994 219 1086 219 1113 207 L 1111 221 C 1085 233 995 233 969 221 Z" fill="#8A5E12" fill-opacity="0.22" stroke="#7A5210" stroke-opacity="0.35" stroke-width="1"/>
+          <path d="M 968 211 C 995 223 1085 223 1112 211" stroke="#F7DCA4" stroke-opacity="0.38" stroke-width="1" stroke-dasharray="4 5" fill="none"/>
+          <g stroke="#FFF3D0" stroke-opacity="0.5" stroke-width="1.2" fill="none" stroke-linecap="square">
+            <path transform="translate(985 214)" d="M -6 3 L -6 -3 L 2 -3 L 2 1 L 6 1"/>
+            <path transform="translate(1008 215)" d="M -6 3 L -6 -3 L 2 -3 L 2 1 L 6 1"/>
+            <path transform="translate(1032 216)" d="M -6 3 L -6 -3 L 2 -3 L 2 1 L 6 1"/>
+            <path transform="translate(1056 215)" d="M -6 3 L -6 -3 L 2 -3 L 2 1 L 6 1"/>
+            <path transform="translate(1079 214)" d="M -6 3 L -6 -3 L 2 -3 L 2 1 L 6 1"/>
+          </g>
+
+          <!-- central medallion -->
+          <path d="M 1040 232 l 9 9 -9 9 -9 -9 Z" fill="url(#dingLight)" stroke="#7A5210" stroke-opacity="0.5" stroke-width="1"/>
+          <path d="M 1040 236 l 5 5 -5 5 -5 -5 Z" fill="#8A5E12" fill-opacity="0.6"/>
+          <path d="M 1031 245 C 1031 235 1019 231 1011 238 C 1004 244 1009 253 1017 252 C 1023 251 1024 245 1019 243" stroke="#8A5E12" stroke-opacity="0.55" stroke-width="2" fill="none" stroke-linecap="round"/>
+          <path d="M 1049 245 C 1049 235 1061 231 1069 238 C 1076 244 1071 253 1063 252 C 1057 251 1056 245 1061 243" stroke="#8A5E12" stroke-opacity="0.55" stroke-width="2" fill="none" stroke-linecap="round"/>
+          <circle cx="1004" cy="237" r="3" fill="#6E4A0E" stroke="#F7DCA4" stroke-opacity="0.55" stroke-width="1"/>
+          <circle cx="1076" cy="237" r="3" fill="#6E4A0E" stroke="#F7DCA4" stroke-opacity="0.55" stroke-width="1"/>
+          <path d="M 1014 257 C 1022 261 1058 261 1066 257" stroke="#F7DCA4" stroke-opacity="0.3" stroke-width="1.4" fill="none"/>
+
+          <!-- lower fluting -->
+          <path d="M 1012 261 C 1012 266 1013 271 1015 275" stroke="#5A3A08" stroke-opacity="0.22" stroke-width="1.5" fill="none"/>
+          <path d="M 1028 262 C 1028 267 1029 272 1030 276" stroke="#5A3A08" stroke-opacity="0.22" stroke-width="1.5" fill="none"/>
+          <path d="M 1052 262 C 1052 267 1051 272 1050 276" stroke="#5A3A08" stroke-opacity="0.22" stroke-width="1.5" fill="none"/>
+          <path d="M 1068 261 C 1068 266 1067 271 1065 275" stroke="#5A3A08" stroke-opacity="0.22" stroke-width="1.5" fill="none"/>
+
+          <!-- rim -->
+          <ellipse cx="1040" cy="196" rx="78" ry="13" fill="url(#dingGold)" stroke="#5A3A08" stroke-opacity="0.75" stroke-width="1.4"/>
+          <ellipse cx="1040" cy="195" rx="69" ry="9" fill="url(#dingInside)"/>
+          <path d="M 962 196 A 78 13 0 0 0 1118 196 L 1118 204 A 78 13 0 0 1 962 204 Z" fill="url(#dingGold)" stroke="#7A5210" stroke-opacity="0.6" stroke-width="1"/>
+          <path d="M 963 193 A 77 12 0 0 1 1117 193" stroke="#FFF3D0" stroke-opacity="0.7" stroke-width="2" fill="none"/>
+
+          <!-- center leg -->
+          <g transform="translate(1040 258)">
+            <path d="M -17 0 L -14 38 L -23 60 Q 0 69 23 60 L 14 38 L 17 0 Z" fill="url(#dingLeg)" stroke="#5A3A08" stroke-opacity="0.6" stroke-width="1.2"/>
+            <path d="M -21 8 C -12 12 12 12 21 8 L 19 21 C 10 25 -10 25 -19 21 Z" fill="url(#dingDark)" stroke="#5A3A08" stroke-opacity="0.55" stroke-width="1"/>
+            <path d="M -19 13 C -10 16 10 16 19 13" stroke="#F7DCA4" stroke-opacity="0.45" stroke-width="1"/>
+            <path d="M -15 40 L 15 40" stroke="#F7DCA4" stroke-opacity="0.35" stroke-width="1"/>
+            <path d="M -22 55 Q 0 62 22 55 L 20 63 Q 0 70 -20 63 Z" fill="url(#dingDark)" stroke="#5A3A08" stroke-opacity="0.45" stroke-width="1"/>
+            <path d="M -9 2 L -6 54" stroke="#FFF3D0" stroke-opacity="0.45" stroke-width="1.6"/>
+            <path d="M 7 4 L 5 54" stroke="#5A3A08" stroke-opacity="0.25" stroke-width="1.4"/>
+          </g>
+        </g>
+      <path d="M1196 110 l4.5 11 11 4.5 -11 4.5 -4.5 11 -4.5 -11 -11 -4.5 11 -4.5z" fill="#D4A24C" fill-opacity="0.8"/>
+      <circle cx="894" cy="93" r="2" fill="#8FA2BC"/>
+    </g>
+</svg>
